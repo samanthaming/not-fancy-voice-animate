@@ -1,6 +1,6 @@
-# Not Fancy 
+# Not Fancy Voice Animate
 
-A simple, not fancy at all, voice command. Animate the Totoro image with your voice!
+A simple, not fancy at all, voice animate app. Animate the Totoro image with your voice!
 
 **Features include:**
 - Make the image respond to the corresponding voice command.
@@ -23,14 +23,7 @@ Or see it live! [here](https://samanthaming.github.io/not-fancy-voice-command/)
 
 # Notes
 
-Here are the general steps to create your own Not Fancy Voice Command.
-
-- Setup SpeechRecognization
-- Display Transcript
-- Respond to Command
-- Turn mic on/off
-- Keep listening
-
+Here are the general steps to create your own Not Fancy Voice Animate app.
 
 ## 1. Setup SpeechRecognition
 
@@ -64,7 +57,7 @@ Your `e.results` will look like this
 
 ## 2. Display the Spoken Words
 
-Let's display our results. Our results is quite nested, so we will need to do a few loops to pull out our transcript.
+Let's display our results. Our results is quite nested, so we will need to do a few loops to pull it out of our transcript.
 
 ```javascript
 data: {
@@ -86,7 +79,7 @@ methods: {
 
 ## 3. Create our Voice Command
 
-We're going to create the list voice command that we want our Totoro image to respond to. If the user says those specific word, we'll save it to our data.
+We're going to create the list of voice commands that we want our Totoro image to respond to. If the user says those specific word, we'll save it to our animate data.
 
 ```javascript
 data: {
@@ -214,5 +207,5 @@ target.addEventListener(type, listener[, options]);
 
 # Images
 
-- [Totoro by chloevictoria](https://www.deviantart.com/chloevictoria/art/Totoro-211807815)
-- [Background by Iriname](https://www.deviantart.com/iriname/art/TOTORO-217717011)
+- Totoro Image by [chloevictoria](https://www.deviantart.com/chloevictoria/art/Totoro-211807815)
+- Background Image by [Iriname](https://www.deviantart.com/iriname/art/TOTORO-217717011)
