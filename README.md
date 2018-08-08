@@ -15,7 +15,7 @@ A simple, not fancy at all, voice animate app. Animate the Totoro image with you
 <br>
 
 Play around with it on [CodePen](https://codepen.io/samanthaming/pen/)  
-Or see it live! [here](https://samanthaming.github.io/not-fancy-voice-command/)
+Or see it live! [here](https://samanthaming.github.io/not-fancy-voice-animate/)
 
 <br>
 
