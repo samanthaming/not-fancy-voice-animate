@@ -7,6 +7,7 @@
   --color-dark-gray: hsl(0, 0%, 51%);
   --color-red: hsl(348, 100%, 61%);
   --color-red-inverse: hsl(348, 100%, 65%);
+  --color-background: #F0E6BA;
 }
 /* ==================
  *  BASE
@@ -14,20 +15,23 @@
 body {
   font-family: 'Short Stack', cursive;
   color: var(--color-black);
-  background: #F0E6BA url("./images/background.jpg") no-repeat fixed center center;
-  background-size: auto;
+  background: var(--color-background);
 }
 .outer-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  background: var(--color-background) url("./images/background.jpg") no-repeat fixed center center;
+  background-size: auto 112%;
 }
 .inner-container {
   width: 400px;
-  margin-top: 50px;
   border-radius: 4px;
-  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
 }
 h1 {
   padding: 20px;
@@ -44,7 +48,7 @@ h1 {
 .shape-wrap {
   display: flex;
   justify-content: center;
-  margin: 25px 0 30px;
+  margin: 0 0 30px;
 }
 img.shape {
   height: 180px;
@@ -172,7 +176,7 @@ button.speaking .fa-microphone {
 *  SOCIAL MEDIA
 * ================== */
 .social-media-footer {
-  --font-color: #ffffff;
+  --font-color: hsl(49, 64%, 40%);
   --font-size: 0.8rem;
   position: absolute;
   bottom: 0;

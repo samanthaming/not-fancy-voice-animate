@@ -1,6 +1,6 @@
 # Not Fancy 
 
-A simple, not fancy at all, voice command. Animate the Totoro with your voice!
+A simple, not fancy at all, voice command. Animate the Totoro image with your voice!
 
 **Features include:**
 - Make the image respond to the corresponding voice command.
